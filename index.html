@@ -1,143 +1,16 @@
 <!DOCTYPE html>
-
-<head>
-    <title>我的网页</title>
-    <meta charset="UTF-8">
-    <!-- 链接外部css文件  -->
-    <link rel="stylesheet" href="main.css">
-    <style type="text/css">
-        /*  设置背景  */
-        body {
-            background-image: url(简历背景.jpg);/*添加背景图片*/
-            background-size: 110%;/*设置背景图片尺寸*/
-            background-attachment: fixed;/*固定背景位置*/
-        }
-
-        /*顶部图片尺寸*/
-        #top {
-            width: 100%;/*设置顶部图片宽度等于浏览器宽度*/
-            height: 200px;
-        }
-
-        /* 设置四个区域 */
-        div {
-            width: 60%;
-            height: 700px;
-            background-color: rgba(255, 255, 255, 0.5);/*设置背景颜色*/
-            font-weight: bold;/*设置字体粗细*/
-            position: relative; /*设置定位模式*/
-            text-align: center;
-            left: 30%;
-            border-radius: 15px;/*设置圆角边框*/
-        }
-        img {
-            width: 400px;
-        }
-
-        /* 标题 */
-        h2 {
-            text-align: center;
-            font-size: 50px;
-            font-family: 'Ma Shan Zheng';
-            color: rgba(26, 25, 24, 0.7);/*设置字体颜色*/
-            border-color: rgba(0, 0, 0, 0.3);
-            border-width: 3px;
-            border-style: solid;
-            border-radius: 15px;/*设置圆角边框*/
-            background-color: rgba(255, 255, 255, 0.7);/*设置背景颜色*/
-        }
-        /* 导航栏布局 */
-        #content {
-            width: 16%;
-            height: 400px;
-            position: fixed;
-            background: rgba(255, 255, 255, 0.6);
-            top: 240px;
-            left: 100px;
-        }
-        /* 导航栏样式 */
-		ul {
-            position: relative; /* 导航栏定位模式【相对定位】 */
-            text-align: center; /* 文字居中 */
-            top: 70px; /* 距导航栏的上边框为70px */
-			list-style: none; /* 去掉文字前面的黑点 */
-		}
-		li {
-            position: relative; /* 导航栏定位模式【相对定位】 */
-            height: 70px; /* li标签的高度 */
-			left: -20px; /* 距导航栏的左边框为20px */
-        }
-        a {
-            text-decoration: none;  /* 去掉链接下划线 */
-            font-size: 25px;
-            color: rgb(100,149,237);
-        }
-        #p1{
-            width:300px;
-        }
-        p{
-        font-size:36px;
-        color:white;
-        }
-        #pic1{
-            width:310px;
-            position:absolute;
-            top:160px;
-            left:130px;
-            transform:rotate(10deg);
-        }
-        #pic2{
-            width:250px;
-            position:absolute;
-            top:140px;
-            left:760px;
-            transform:rotate(-6deg);
-        }
-        #pic3{
-            width:250px;
-            position:absolute;
-            top:240px;
-            left:450px;
-            transform:rotate(-18deg);
-        }
-
-    </style>
-
-</head>
-
-<body>
-    <img id="top" src="个人简历.png" />
-    <!-- 导航栏 -->
-    <div id="content">
-        <ul>
-            <li><a href="#chapter1">个人简介</a></li>
-            <li><a href="#chapter2">荣誉奖励</a></li>
-            <li><a href="#chapter3">特长爱好</a></li>
-        </ul>
-    </div>
-
-    <!-- 第一部分  -->
-    <div>
-        <h2 id="chapter1"> 个人简介 </h2>
-        <img id = p1 src="IMG_1076.JPG"/>
-        <p> 姓名:乐宇轩 </p>
-        <p>性别:男 年龄:10岁</p>
-        <p>爱好:画画 数学 朗诵 唱歌</p>
-    </div>
-    <!-- 第二部分 -->
-    <div>
-        <h2 id="chapter2"> 荣誉奖励 </h2>
-        <p>美术已考过五级</p>
-        <p>两次荣获‘年级十佳学习标兵’的称号</p>
-        <p>钢琴已经考过六级,并多次参加比赛获奖</p>
-    </div>
-    <!-- 第三部分  -->
-    <div>
-        <h2 id="chapter3">特长爱好</h2>
-        <img id="pic1" src="1.jpg">
-        <img id="pic2" src="2 (1).jpg">
-        <img id="pic3" src="2 (2).jpg">
-    </div>
-</body>
-
+<html>
+    <head>
+        <title>乐宇轩的文件</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+	    <h1>乐宇轩的文件</h1>
+	    <p>云:<a href = /云/index.html>leyuxuan.neocities.org/云/index.html</a></p>
+	    <p>舞蹈:<a href = /舞蹈/index.html>leyuxuan.neocities.org/舞蹈/index.html</a></p>
+	    <p>乒乓球:<a href = /乒乓/paddle0.html>leyuxuan.neocities.org/乒乓/paddle0.html</a></p>
+	    <p>OneDrive快速下载：<a href = /OneDrive.html>leyuxuan.neocities.org/OneDrive.html</a></p>
+	    <p>Scratch项目打包到一个单独的HTML文件中: <a href = /HTMLifier.html>leyuxuan.neocities.org/HTMLifier.html</a></p>
+    </body>
 </html>
